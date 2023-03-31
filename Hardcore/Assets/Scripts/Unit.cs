@@ -7,24 +7,34 @@ public class Unit : MonoBehaviour
     public string unitName;
     public int level;
     public int damage;
+    public GameObject enemyCollider;
+    public float maxHP;
+    public float currentHP;
+    public bool isAlive = true;
     
-    public int maxHP;
-    public int currentHP;
 
-    public bool TakeDamage(int dmg)
+    public void TakeDamage(float dmg)
     {
-        currentHP -= dmg;
+       
+            currentHP -= dmg;
+        
+        
+       
         if (currentHP <= 0)
         {
-            return true;
+            isAlive = false;
+            enemyCollider.SetActive(false);
+            BattleSystem.BS.aliveEnemies--;
+            this.gameObject.SetActive(false);
         }
         else
         {
-            return false;
+            isAlive = true;
         }
+
         
-            
-        
+
+
     }
 
 }

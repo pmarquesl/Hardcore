@@ -10,6 +10,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleHUD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadWorld.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SelectTarget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TipoInimigo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,7 +85,11 @@
       <option name="presentableId" value="Default" />
       <updated>1678924342241</updated>
       <workItem from="1678924346395" duration="3414000" />
-      <workItem from="1679009742006" duration="4702000" />
+      <workItem from="1679009742006" duration="4840000" />
+      <workItem from="1679355914188" duration="389000" />
+      <workItem from="1679444655460" duration="799000" />
+      <workItem from="1679622322256" duration="2134000" />
+      <workItem from="1680217013992" duration="14127000" />
     </task>
     <servers />
   </component>
